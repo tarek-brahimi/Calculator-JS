@@ -72,16 +72,17 @@ box-shadow: 0px 4px 0px #B3A497; }
   color: #fff;
   box-shadow: 0px 4px 0px #424D75;
   font-size: 20px;
+ 
 }
 .reset {
   background-color:#647299 ;
   color: #fff;
   box-shadow: 0px 4px 0px #424D75;
-  font-size: 19px;
-  width: 120px;
+  font-size: 14px;
+  width: 150px;
 
 }
 .equale { background-color:#D13F30 ; 
 color: #fff;
  box-shadow: 0px 4px 0px #93261A;
-width :120px }
+width :150px }

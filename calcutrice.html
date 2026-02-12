@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calculatrice.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>.Calc</p>
+      <p class="clacultaion">0</p>
+      <div class="the-buttons">
+        <div class="line1">
+          <button class="one" onclick="number('1')">1</button>
+          <button class="two" onclick="number('2')">2</button>
+          <button class="three" onclick="number('3')">3</button>
+         
+          <button class="delete" onclick="deleat()">del</button>
+        </div>
+        <div class="line2">
+          <button class="four" onclick="number('4')">4</button>
+          <button class="five" onclick="number('5')">5</button>
+          <button class="six" onclick="number('6')">6</button>
+          
+           <button class="plus" onclick="opernde('+')">+</button>
+        </div>
+        <div class="line3">
+          <button class="seven" onclick="number('7')">7</button>
+          <button class="eight" onclick="number('8')">8</button>
+          <button class="nine" onclick="number('9')">9</button>
+          <button class="minus" onclick="opernde('-')">-</button>
+   
+        </div>
+        <div class="line4">
+          <button class="zero" onclick="number('0')">0</button>
+                 <button class="multiply" onclick="opernde('x')">x</button>
+                 <button class="dot" onclick="number('.')">.</button>
+          <button class="devide" onclick="opernde('/')">/</button>
+          </div>
+          <div class="line5">
+          <button class="reset" onclick="reset()">RESET</button>
+          <button class="equale" onclick="result()">=</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
